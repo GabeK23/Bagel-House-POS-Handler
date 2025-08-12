@@ -1,0 +1,30 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Current File",
+      "request": "launch",
+      "mainClass": "${file}",
+    "vmArgs": "--module-path C:/javafx-sdk-23.0.2/lib --add-modules javafx.controls,javafx.fxml"
+    },
+    {
+      "type": "java",
+      "name": "BagelGUI",
+      "request": "launch",
+      "mainClass": "bagelHouse.BagelGUI",
+      "projectName": "Bagel-House-POS-Handler_9d844ddd",
+    "vmArgs": "--module-path C:/javafx-sdk-23.0.2/lib --add-modules javafx.controls,javafx.fxml"
+
+    }
+      ,
+      {
+        "type": "java",
+        "name": "BagelGUI",
+        "request": "launch",
+        "mainClass": "bagelHouse.BagelGUI",
+        "projectName": "Bagel-House-POS-Handler_9d844ddd",
+        "vmArgs": "--module-path C:/javafx-sdk-23.0.2/lib --add-modules javafx.controls,javafx.fxml"
+      }
+    ]
+}
